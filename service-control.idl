@@ -1,0 +1,8 @@
+[
+    uuid(DF84C4AB-BA7E-4C24-89AE-01A7D9C06E77),
+    version(1.0)
+]
+interface ZiovpoServiceControl
+{
+    void StopService();
+}
