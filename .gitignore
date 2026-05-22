@@ -1,0 +1,17 @@
+/build/
+start
+stop
+delete
+/out/
+/.vs/
+*.user
+*.suo
+*.VC.db
+*.opensdf
+*.sdf
+x64/
+x86/
+Debug/
+Release/
+CMakeCache.txt
+CMakeFiles/
