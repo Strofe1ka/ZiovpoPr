@@ -1,0 +1,15 @@
+stages:
+  - build
+
+build-windows:
+  stage: build
+  tags:
+    - windows
+  script:
+    - cmake -S . -B build -A x64
+    - cmake --build build --config Release
+  artifacts:
+    name: ZIoVPO-Pract1
+    paths:
+      - build/Release/ziovpo-practs.exe
+    expire_in: 30 days
